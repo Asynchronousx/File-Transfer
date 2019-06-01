@@ -54,10 +54,7 @@ int main() {
         //clean ip buffer and fetch ip
         memset(ip_buffer, 0, INET_ADDRSTRLEN);
         secure_ntop(AF_INET, &c_info.__clientaddr.sin_addr, ip_buffer, INET_ADDRSTRLEN);
-
-        //get host info
-        host = secure_gethostbyaddr(&c_info.__clientaddr.sin_addr, c_info.__clientlen, AF_INET);
-
+	    
         //print info
         printf("Client connected IP: %s\n", ip_buffer);
         puts("");
