@@ -1,6 +1,6 @@
 # File-Transfer
 
-<img src="https://i.ibb.co/4ZSTFpP/Screenshot-from-2019-06-01-16-01-46.png" width="500"><br>
+<img src="https://i.ibb.co/4ZSTFpP/Screenshot-from-2019-06-01-16-01-46.png" width="800"><br>
 A simple terminal-based multithreaded C application that allow two (or more) machine connected to the same local network<br>
 communicate between them to send and receive files over the internet, using the TCP/IP socket paradigm.<br>
 This small project has been designed for *personal use* and it is therefore open to some future *improvement*.<br>
