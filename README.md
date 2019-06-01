@@ -28,10 +28,10 @@ withing the first 3 lines of code of both the FTClient and FTServer, where the <
 Follow this guidelines to begin the file-trasnfer:
 
 ## Installed with the script
-If you ran the install script, you can type the commands anywhere from the terminal to start the transfer.
-Also, two folder are created into the Home folder: <b>FileDownload & FileUpload</b>
-FileDownload is the folder that store the files download from the server.
-FileUpload is the folder where the file that the server should share are put.
+If you ran the install script, you can type the commands anywhere from the terminal to start the transfer.<br>
+Also, two folder are created into the Home folder: <b>FileDownload & FileUpload</b><br>
+FileDownload is the folder that store the files download from the server.<br>
+FileUpload is the folder where the file that the server should share are put.<br>
 *Note: you can move this folder anywhere in your filesystem.*
 
 To begin, you can type
