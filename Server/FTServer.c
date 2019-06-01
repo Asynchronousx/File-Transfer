@@ -59,12 +59,7 @@ int main() {
         host = secure_gethostbyaddr(&c_info.__clientaddr.sin_addr, c_info.__clientlen, AF_INET);
 
         //print info
-        puts("Infos:");
-        printf("-IP: %s\n-Host name: %s\n-Host Port: %d\n", 
-            ip_buffer, 
-            host->h_name, 
-            ntohs(c_info.__clientaddr.sin_port)
-        );
+        printf("Client connected IP: %s\n", ip_buffer);
         puts("");
 
         //create a thread to manage the just connected client
