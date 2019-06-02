@@ -1,14 +1,14 @@
 # File-Transfer
 
 <img src="https://i.ibb.co/4ZSTFpP/Screenshot-from-2019-06-01-16-01-46.png" width="800"><br>
-A simple terminal-based multithreaded C application that allow two (or more) machine connected to the same local network<br>
-communicate between them to send and receive files over the internet, using the TCP/IP socket paradigm.<br>
+A simple terminal-based multithreaded C application that allows two (or more) machine connected to the same local network<br>
+to communicate between them to send and receive files over the internet, using the TCP/IP socket paradigm.<br>
 This small project has been designed for *personal use* and it is therefore open to some future *improvement*.<br>
 
 #### Secure Networking
-This project come with a custom networking safe library. The library contains functions to control efficiently the data<br>
+This project comes with a custom networking safe library. The library contains functions to control efficiently the data<br>
 passage over the network, the handling of common socket errors and the definition of custom data structure to organize<br>
-the workflow of the socket definition, building and initialization more easily.<br>
+the workflow of the socket definition, building and initialization.<br>
 
 # Installing
 You can both download and compile from scratch the source code, or install it with the install script.
@@ -22,15 +22,15 @@ foo@bar:~/File-Transfer$ .install.sh
 ## Installing from source code
 As above, download the repo and run the <b>make</b> into each folder (Client/Server) to generate the executable.<br>
 Before compiling, you must specify the path of your Repository, both for the client and the server (they should be different)<br>
-withing the first 3 lines of code of both the FTClient and FTServer, where the <b>#DEFINE "PATHTODIR"</b> is located. Just change *"PATHTODIR"* with your favorite directory, build it and run the executable.<br>
+within the first 3 lines of code of both the FTClient and FTServer, where the <b>#DEFINE "PATHTODIR"</b> is located. Just change *"PATHTODIR"* to your favorite directory, build it and run the executable.<br>
 
 # Usage
 Follow this guidelines to begin the file-trasnfer:
 
 ## Installed with the script
-If you ran the install script, you can type the commands anywhere from the terminal to start the transfer.<br>
+if you have already ran the the install script, you can type the commands anywhere from the terminal to start the transfer.<br>
 Also, two folder are created into the Home folder: <b>FileDownload & FileUpload</b><br>
-FileDownload is the folder that store the files download from the server.<br>
+FileDownload is the folder that stores the files download from the server.<br>
 FileUpload is the folder where the file that the server should share are put.<br>
 *Note: you can move this folder anywhere in your filesystem.*
 
@@ -47,7 +47,7 @@ to start the client. Be sure to put the ip address of the server as the first ar
 Additional Note: Be sure to *put something into the FileUpload*, otherwise the client won't see anything.
 
 ## Installed from source
-After you ran the make and specified the repository folder, both for the client and the server, you only need to start the exectuable:<br>
+after you run the make and specify the repository folder, both for the client and the server, you only need to start the exectuable:<br>
 To start the client
 ```console
 foo@bar:~$ ./FTClient <Server IP to reach>
