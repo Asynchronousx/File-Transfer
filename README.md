@@ -16,7 +16,7 @@ You can both download and compile from scratch the source code, or install it wi
 ## Installing with the script
 Just download the repository, extract the file to a folder and run <br>
 ```console
-foo@bar:~/File-Transfer$ .install.sh
+foo@bar:~/File-Transfer$ ./install.sh
 ```
 
 ## Installing from source code
